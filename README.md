@@ -8,13 +8,14 @@ Prerequisites:
 3. Run below command
 
 If you are running your application for the first time
-docker-compose up --build
+
+`docker-compose up --build`
 
 
 To Start application
 
-docker-compose up
+`docker-compose up`
 
 To Stop Application
 
-docker-compose down
+`docker-compose down`

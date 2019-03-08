@@ -1,0 +1,29 @@
+{
+  "name": "visits",
+  "version": "1.0.0",
+  "description": "Shows  number of visits",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devopshelf/visits.git"
+  },
+  "keywords": [
+    "docker",
+    "nodejs",
+    "redis",
+    "docker-compose"
+  ],
+  "author": "Shubham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devopshelf/visits/issues"
+  },
+  "homepage": "https://github.com/devopshelf/visits#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "redis": "^2.8.0"
+  }
+}

@@ -1,18 +1,10 @@
 //Require the dev-dependencies
-let chai = require('chai');
-let chaiHttp = require('chai-http');
-let app = require('../app');
+let expect = require('chai').expect;
+const PORT = process.env.PORT || 8081
 
-
-chai.use(chaiHttp);
-
-describe('/GET visits', () => {
-    it('it should GET all the visits', (done) => {
-        chai.request(app)
-            .get('/')
-            .end((err, res) => {
-                res.should.have.status(200);
-                done();
-            });
+describe('PORT TESTING', () => {
+    it('it should have correct port', (done) => {
+        expect(PORT).to.be.a('number');
+        done();
     });
 });
